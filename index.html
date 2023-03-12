@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>«Component»</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="model.css">
+</head>
+<body>
+    <div class="goods">
+        <img src="img/66519032.jpg" alt="Фотоапарат" width="200px">
+        <h1>Canon EOS 2000D</h1>
+        <p>Виробник/Модель: Canon</p>
+        <p>Кількість пікселів: 24.1 Мп</p>
+        <p>Максимальна діафрагма: F/3.5 - 5.6</p>
+        <p>Оптичний зум: 3.05x</p>
+        <p>Серійна зйомка: Максимальне наближення 3 кадри/сек</p>
+        <button class="button-one"> 
+            <b>
+                <a href="#modal"></a> Edit 
+            </b>
+        </button>
+        <button class="button-two">delete</button>
+    </div>
+
+    <div class="overlay">
+        <div class="model">
+            <div class="model_head">
+                <p>Cup optins</p>
+                <span class="span_close">
+                    <a href class="close">♂</a>
+                </span>
+            </div>
+            <div class="model_center">
+                <h3>Модель:</h3>
+                <input type="text" class="center-text" placeholder="Ведіть ">
+                <h3>Кількість мегапікселів:</h3>
+                <input type="text" class="center-text" placeholder="Ведіть ">
+                <h3>Максимальний розмір кадру:</h3>
+                <select name="material" class="center-text">
+                    <option value="???">???</option>
+                    <option value="???">???</option>
+                    <option value="???">???</option>
+                    <option value="???">???</option>
+                </select>
+                <h3>Select image file:</h3>
+                <img src="" alt="photo" >
+                <input class="center-text" type="file">
+            </div>
+            <div>
+                <button class="button-three">Confirm</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
